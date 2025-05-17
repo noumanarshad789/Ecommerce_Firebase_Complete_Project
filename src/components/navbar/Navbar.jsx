@@ -354,7 +354,7 @@ export default function Navbar() {
                     Order
                   </Link>
 
-                  {user?.user?.email === 'knupadhyay784@gmail.com'?
+                  {user?.user?.email === 'mnoumanarshad@gmail.com'?
                    <Link to={'/dashboard'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                     Admin
                   </Link> : ""
